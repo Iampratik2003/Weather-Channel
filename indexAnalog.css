@@ -1,0 +1,50 @@
+.clock {
+    position: relative;
+    height: 40vw;
+    width: 40vw;
+    margin: auto;
+    background: url('clock.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    opacity: 60%;
+}
+
+body{
+    background-image: url('city.jpg');
+    background-size: cover;
+}
+
+.hour,
+.min,
+.sec {
+    position: absolute;
+    background-color: black;
+    transform-origin: bottom;
+    border: 2px solid black;
+    
+}
+
+.hour {
+    /* transform: rotate(45deg); */
+    width: 1%;
+    height: 23%;
+    top: 27%;
+    left: 49.4%;
+    /* display: none; */
+}
+.min {
+    width: 1%;
+    height: 30%;
+    top: 20%;
+    left: 49.4%;
+    /* display: none; */
+    
+}
+.sec {
+    width: 1%;
+    height: 37%;
+    top: 13%;
+    left: 49.4%;
+    /* display: none; */
+    
+}

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather-Channel</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="index1.css">
+</head>
+<body>
+
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" ><strong>Weather-Channel</strong></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="indexAnalog.html"><strong>Time</strong></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html">About</a>
+              </li>
+              
+            </ul>
+            <form class="d-flex" role="search">
+                <input id="city" class="form-control me-2" type="search" placeholder="Search City/Country" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit" id="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+
+
+      <div class="container my-4">
+        <div class="box0" id="place"></div>
+        <div class="box1"></div>
+        <div class="box2" id="liveTemp"></div>
+      </div>
+
+
+      <div class="row row-cols-1 row-cols-md-4 my-4 g-4 mx-4">
+
+        <div class="col">
+            <div class="card" >
+              <div class="card-body">
+                <h3 class="card-title"><strong>TEMPERATURE</strong></h3>
+                <p class="card-text">
+                    <h6 id="minTemp"><strong></strong></h6>
+                    <h6 id="maxTemp"><strong></strong></h6>
+                </p>
+              </div>
+            </div>
+          </div>
+
+        <div class="col">
+          <div class="card">
+            <div class="card-body">
+              <h3 class="card-title"><strong>WIND SPEED</strong></h3>
+              <p class="card-text" id="windSpeed"></p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+            <div class="card">
+              <div class="card-body">
+                <h3 class="card-title"><strong>HUMIDITY</strong></h3>
+                <p class="card-text" id="humid"></p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <div class="card-body">
+                <h3 class="card-title"><strong>FEELS LIKE</strong></h3>
+                <p class="card-text" id="feeling"></p>
+              </div>
+            </div>
+          </div>
+        <!-- <div class="col">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Feels Like</h5>
+              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            </div>
+          </div>
+        </div> -->
+        
+        
+      </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    <script src="index.js"></script>
+    <!-- <script src="indexA.js"></script> -->
+</body>
+</html>

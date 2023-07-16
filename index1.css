@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url('background.jpg');
+    background-size: cover;
+}
+.container{
+    position: relative;
+    height: 220px;
+    /* background-image: url('city.jpg'); */
+    background-color: white;
+    background-size: cover;
+    opacity: 50%;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.card{
+    opacity: 79%;
+}
+.box1{
+    position: absolute;
+    height: 220px;
+    width: 220px;
+    background-image: url('cloud.png');
+    background-size: contain;
+    /* justify-content: center; */
+}
+.box0{
+    /* position: absolute; */
+    font-size: 5vw;
+    margin: 0 40vw 0 0;
+    color:rgb(7, 1, 26);
+}
+.box2{
+    /* position: absolute; */
+    font-size: 5vw;
+    color:rgb(7, 1, 26);
+} 
