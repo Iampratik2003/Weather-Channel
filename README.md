@@ -1,11 +1,3 @@
-Name - Pratik Nand,
-Company - CODETECH IT SOLUTIONS,
-ID - CT08DS32,
-Domain - Web Development,
-Duration - 1 JUne to 15 July,
-Mentor - G. Sravani
-
-Task 2 : 
 # Overview : 
 Welcome to my weather forecasting website! This project is designed to provide users with accurate and up-to-date weather information for locations around the globe. By leveraging powerful APIs and a user-friendly interface, this website aims to deliver a seamless experience for checking current weather conditions, forecasts, and more.
 
